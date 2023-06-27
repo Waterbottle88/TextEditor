@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.12)
-project(MyFLTKApp)
+project(TextEditor)
 
 find_package(FLTK REQUIRED)
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(MyApp ${SOURCES})
+add_executable(TextEditor ${SOURCES})
 
-target_include_directories(MyApp PRIVATE ${FLTK_INCLUDE_DIRS})
-target_link_libraries(MyApp PRIVATE ${FLTK_LIBRARIES})
+target_include_directories(TextEditor PRIVATE ${FLTK_INCLUDE_DIRS})
+target_link_libraries(TextEditor PRIVATE ${FLTK_LIBRARIES})
