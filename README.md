@@ -14,6 +14,7 @@ C++ FLTK 1.3.8 Simple TextEditor
 
 ```
 git clone https://github.com/Waterbottle88/TextEditor
+cd TextEditor
 mkdir build
 cd build
 cmake ..
